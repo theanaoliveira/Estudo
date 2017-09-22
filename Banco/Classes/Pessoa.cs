@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Banco.Interfaces;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Banco.Classes
 {
-    public class Pessoa
+    public class Pessoa: IPessoaAtributos
     {
         public int IdPessoa { get; set; }
         public string Nome { get; set; }
